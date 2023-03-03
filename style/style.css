@@ -1,0 +1,79 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Poppins:wght@400;500;600;700;900&display=swap');
+
+:root{
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font:'Manrope', sans-serif;
+    --light-dark: #3E3E3E; 
+    --black: #0A0826;
+    --blue: #3F87F5;
+    --white: #FFFFFF;
+    --primary-color: #5243C2;
+    --secondary-color: #848199;
+    --tarsiyari-color: #F496D1;
+    --background-color: #0B0D17;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start narber */
+.navber{
+    padding: 106px;
+}
+
+.logo{
+    font-family: var(--primary-font);
+    color: var(--light-dark);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navber ul li a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    color: var(--light-dark);
+}
+/*-----
+ end navber
+ --------- */
+
+/* -----------
+start slider section 
+---------------*/
+.slider-text{
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+}
+
+.slider-heading{
+    font-size: 3rem;
+    line-height: 58px;
+    font-family: var(--primary-font);
+    color: var(--white);
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.slider-pragraph{
+    font-family: var(--primary-font);
+    line-height: 24px;
+    text-align: center;
+    font-weight: 300;
+    color: var(--white);
+    margin-bottom: 17px;
+}
+
+.btn{
+    color: var(blue);
+    width: 168px;
+    background-color: var(--white);
+}
+/* -----------
+end slider section 
+---------------*/
