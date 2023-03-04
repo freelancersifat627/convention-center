@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style/style.css">
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- fontawsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
@@ -28,9 +30,10 @@
         <!-- end navber -->
     </header>
     <main>
+        <!-- slider section start -->
         <section id="slider">
             <div class="slider-container">
-                <div class="slider-view position-relative bg-danger">
+                <div class="slider-view position-relative">
                     <div id="carouselExampleIndicators" class="carousel slide">
                         <div class="carousel-indicators">
                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -55,12 +58,38 @@
                     </div>
                 </div>
                 <div class="slider-text d-flex flex-column justify-content-center align-items-center position-absolute">
-                    <h1 class="slider-heading">The perfect venue for your<br> next event</h1>
+                    <h1 class="slider-heading primary-heading">The perfect venue for your<br> next event</h1>
                     <p class="slider-pragraph">Amet minim mollit non deserunt ullamco est sit<br> aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
                     <button class="btn bg-light text-primary btn-lg font-family-Poppins fw-bold  btn-outline-light">Book Now</button>
                 </div>
             </div>
         </section> 
+        <!-- slider section end -->
+        <!------------------------
+         start moment section 
+        ---------------------->
+        <section id="moment">
+            <div class="container d-flex  align-items-center gap-4">
+                <div class="moment-picture">
+                    <img src="images/wedding.png" alt="wedding picture">
+                </div>
+                <div class="moment-about">
+                    <h1 class="moment-title primary-heading fw-bold">Every moment is Precious </h1>
+                    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                          <img src="icons/Vector.svg" class="rounded me-2" alt="gift box">
+                          <strong class="me-auto">20% off on next booking</strong>
+                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <p class="moment-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor<br> do amet sint. Velit officia consequat duis enim velit mollit.<br> Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button class="btn-moment">Explore our album <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+        <!------------------------
+         end moment section 
+        ---------------------->
     </main>
 
 
@@ -71,3 +100,5 @@
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<!-- class="btn bg-primary text-light btn-outline-primary fw-bold font-family-Poppins btn-lg px-4" -->

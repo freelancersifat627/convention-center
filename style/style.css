@@ -44,6 +44,10 @@
 /* -----------
 start slider section 
 ---------------*/
+.slide{
+    height: 80vh;
+}
+
 .slider-text{
     top: 80%;
     left: 50%;
@@ -77,3 +81,43 @@ start slider section
 /* -----------
 end slider section 
 ---------------*/
+
+/* -----------
+start moment section 
+---------------*/
+#moment{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.moment-description{
+    font-family: var(--primary-font);
+    color: var(--light-dark);
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.btn-moment{
+    width: 230px;
+    color: var(--white);
+    outline: none;
+    background-color: var(--blue);
+    border: none;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.btn-moment i{
+  margin-left: 8px;
+  text-align: center;
+}
+/* -----------
+end moment section 
+---------------*/
+
+
+
+
