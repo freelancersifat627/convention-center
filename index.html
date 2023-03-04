@@ -1,104 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CONVENTION CENTER</title>
     <!-- stylesheet -->
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css" />
     <!-- bootstrap css link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
     <!-- fontawsome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header class="header">
-        <nav class="navber">
-            <div class="container container-fluid d-flex justify-content-between align-items-center">
-                <div class="nav-logo">
-                    <div class="logo">Abacus Convention Center</div>
-                </div>
-                <ul class="d-flex gap-4">
-                    <li class=" list-unstyled"><a href="#" class="text-decoration-none">Home</a></li>
-                    <li class=" list-unstyled"><a href="#" class="text-decoration-none">About Us</a></li>
-                    <li class=" list-unstyled"><a href="#" class="text-decoration-none">Contact</a></li>
-                    <li class=" list-unstyled"><a href="#" class="text-decoration-none">Subscribe</a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- end navber -->
+      <nav class="navber">
+        <div
+          class="container container-fluid d-flex justify-content-between align-items-center"
+        >
+          <div class="nav-logo">
+            <div class="logo">Abacus Convention Center</div>
+          </div>
+          <ul class="d-flex gap-4">
+            <li class="list-unstyled">
+              <a href="#" class="text-decoration-none">Home</a>
+            </li>
+            <li class="list-unstyled">
+              <a href="#" class="text-decoration-none">About Us</a>
+            </li>
+            <li class="list-unstyled">
+              <a href="#" class="text-decoration-none">Contact</a>
+            </li>
+            <li class="list-unstyled">
+              <a href="#" class="text-decoration-none">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navber -->
     </header>
     <main>
-        <!-- slider section start -->
-        <section id="slider">
-            <div class="slider-container">
-                <div class="slider-view position-relative">
-                    <div id="carouselExampleIndicators" class="carousel slide">
-                        <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        </div>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="images/banner.png" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/banner1.png" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+      <!-- slider section start -->
+      <section id="slider">
+        <div class="slider-container">
+          <div class="slider-view position-relative">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/banner.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
                 </div>
-                <div class="slider-text d-flex flex-column justify-content-center align-items-center position-absolute">
-                    <h1 class="slider-heading primary-heading">The perfect venue for your<br> next event</h1>
-                    <p class="slider-pragraph">Amet minim mollit non deserunt ullamco est sit<br> aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
-                    <button class="btn bg-light text-primary btn-lg font-family-Poppins fw-bold  btn-outline-light">Book Now</button>
+                <div class="carousel-item">
+                  <img
+                    src="images/banner1.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
                 </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-        </section> 
-        <!-- slider section end -->
-        <!------------------------
+          </div>
+          <div
+            class="slider-text d-flex flex-column justify-content-center align-items-center position-absolute"
+          >
+            <h1 class="slider-heading primary-heading">
+              The perfect venue for your<br />
+              next event
+            </h1>
+            <p class="slider-pragraph">
+              Amet minim mollit non deserunt ullamco est sit<br />
+              aliqua dolor do amet sint. Velit officia consequat duis enim velit
+            </p>
+            <button
+              class="btn bg-light text-primary btn-lg font-family-Poppins fw-bold btn-outline-light"
+            >
+              Book Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- slider section end -->
+      <!------------------------
          start moment section 
         ---------------------->
-        <section id="moment">
-            <div class="container d-flex  align-items-center gap-4">
-                <div class="moment-picture">
-                    <img src="images/wedding.png" alt="wedding picture">
-                </div>
-                <div class="moment-about">
-                    <h1 class="moment-title primary-heading fw-bold">Every moment is Precious </h1>
-                    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
-                        <div class="toast-header">
-                          <img src="icons/Vector.svg" class="rounded me-2" alt="gift box">
-                          <strong class="me-auto">20% off on next booking</strong>
-                          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                        </div>
-                    </div>
-                    <p class="moment-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor<br> do amet sint. Velit officia consequat duis enim velit mollit.<br> Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class="btn-moment">Explore our album <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
+      <section id="moment">
+        <div class="container d-flex align-items-center gap-4">
+          <div class="moment-picture">
+            <img src="images/wedding.png" alt="wedding picture" />
+          </div>
+          <div class="moment-about">
+            <h1 class="moment-title primary-heading fw-bold">
+              Every moment is Precious
+            </h1>
+            <div
+              class="toast show"
+              role="alert"
+              aria-live="assertive"
+              aria-atomic="true"
+            >
+              <div class="toast-header">
+                <img
+                  src="icons/Vector.svg"
+                  class="rounded me-2"
+                  alt="gift box"
+                />
+                <strong class="me-auto">20% off on next booking</strong>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="toast"
+                  aria-label="Close"
+                ></button>
+              </div>
             </div>
-        </section>
-        <!------------------------
+            <p class="moment-description">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor<br />
+              do amet sint. Velit officia consequat duis enim velit mollit.<br />
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button class="btn-moment">
+              Explore our album <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!------------------------
          end moment section 
         ---------------------->
+      <!------------------------
+         start our package section 
+        ---------------------->
+      <section id="out-package">
+        <div class="container">
+          <h3
+            class="package-titile primary-heading fw-bold text-center"
+            style="margin-bottom: 100px">
+            Our Package
+          </h3>
+          <div class="package-boxes d-flex gap-4 justify-content-center" style="margin-bottom: 100px;">
+            <div class="package-singlebox">
+              <div class="card border-0 " style="width: 15rem">
+                <div class="card-body">
+                  <h3 class="singlebox-titile fw-bold">$300</h3>
+                  <p class="singlebox-subtitle fw-bold">Business fair</p>
+                  <p class="singlebox-description">
+                    For most businesses event like book fair, craft fair.
+                  </p>
+                  <ul class="singlebox-items">
+                    <li>
+                      <i class="fa-solid fa-check"></i>limited space access
+                    </li>
+                    <li><i class="fa-solid fa-check"></i>Secuirty facility</li>
+                    <li><i class="fa-solid fa-check"></i>event support</li>
+                    <li><i class="fa-solid fa-check"></i>Decoration design</li>
+                    <li><i class="fa-solid fa-check"></i>Per day bill</li>
+                  </ul>
+                  <button class="btn button-primary text-primary font-family-Poppins rounded-pill text-center fw-bold " style="padding: 13px 0px 14px 0px; ">Choose plan</button>
+                </div>
+              </div>
+            </div>
+            <div class="package-singlebox">
+              <div class="card border-0" style="width: 15rem">
+                <div class="card-body">
+                  <h3 class="singlebox-titile fw-bold">$300</h3>
+                  <p class="singlebox-subtitle fw-bold">Business fair</p>
+                  <p class="singlebox-description">
+                    For most businesses event like book fair, craft fair.
+                  </p>
+                  <ul class="singlebox-items">
+                    <li>
+                      <i class="fa-solid fa-check"></i>limited space access
+                    </li>
+                    <li><i class="fa-solid fa-check"></i>Secuirty facility</li>
+                    <li><i class="fa-solid fa-check"></i>event support</li>
+                    <li><i class="fa-solid fa-check"></i>Decoration design</li>
+                    <li><i class="fa-solid fa-check"></i>Per day bill</li>
+                  </ul>
+                  <button class="btn button-primary text-primary font-family-Poppins rounded-pill text-center fw-bold " style="padding: 13px 0px 14px 0px; ">Choose plan</button>
+                </div>
+              </div>
+            </div>
+            <div class="package-singlebox shadow bg-blue pb-2 pe-2 bg-body-tertiary rounded">
+              <div class="card  bg-primary importent-card" style="width: 19rem">
+                <div class="card-body">
+                  <span class="hot fw-bolder bg-danger text-light position-absolute" style="padding: 6px 10px 10px 11px; border-radius: 25%; top: -20px; left: 220px; font-size: 12px;">Hot</span>
+                  <h3 class="singlebox-titile fw-bold text-light ">$800</h3>
+                  <p class="singlebox-subtitle fw-bold text-light ">Wedding plus</p>
+                  <p class="singlebox-description text-light ">
+                    For most weddings with premium plans
+                  </p>
+                  <ul class="singlebox-items">
+                    <li class="text-light">
+                      <i class="fa-solid fa-check text-light opacity-100"></i>limited space access
+                    </li>
+                    <li class="text-light"><i class="fa-solid fa-check text-light opacity-100"></i>Dedicated team</li>
+                    <li class="text-light"><i class="fa-solid fa-check text-light opacity-100"></i>Buffet food</li>
+                    <li class="text-light"><i class="fa-solid fa-check text-light opacity-100"></i>premium Decoration</li>
+                    <li class="text-light"><i class="fa-solid fa-check text-light opacity-100"></i>pay as plan</li>
+                  </ul>
+                  <button class="btn  button-primary text-primary font-family-Poppins rounded-pill fw-bold d-block" style="padding: 13px 0px 14px 0px; text-align: center; background-color: #ffffff; ">Choose plan</button>
+                </div>
+              </div>
+            </div>
+            <div class="package-singlebox">
+              <div class="card border-0" style="width: 15rem">
+                <div class="card-body">
+                  <h3 class="singlebox-titile fw-bold">$300</h3>
+                  <p class="singlebox-subtitle fw-bold">Business fair</p>
+                  <p class="singlebox-description">
+                    For most businesses event like book fair, craft fair.
+                  </p>
+                  <ul class="singlebox-items">
+                    <li>
+                      <i class="fa-solid fa-check"></i>limited space access
+                    </li>
+                    <li><i class="fa-solid fa-check"></i>Secuirty facility</li>
+                    <li><i class="fa-solid fa-check"></i>event support</li>
+                    <li><i class="fa-solid fa-check"></i>Decoration design</li>
+                    <li><i class="fa-solid fa-check"></i>Per day bill</li>
+                  </ul>
+                  <button class="btn button-primary text-primary font-family-Poppins rounded-pill text-center fw-bold " style="padding: 13px 0px 14px 0px; ">Choose plan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------
+         end our package section 
+        ---------------------->
     </main>
-
-
-
-
-
     <!-- bootstrap js link -->
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
-
-<!-- class="btn bg-primary text-light btn-outline-primary fw-bold font-family-Poppins btn-lg px-4" -->

@@ -118,6 +118,62 @@ start moment section
 end moment section 
 ---------------*/
 
+/* -----------
+start our package section 
+---------------*/
+.singlebox-titile{
+    font-size: 36px;
+    font-family: var(--primary-font);
+    padding-bottom: 20px;
+    color: var(--black);
+}
+
+.singlebox-subtitle{
+    font-size: 28px;
+    font-family: var(--primary-font);
+    color: var(--black);
+    padding-bottom: 15px;
+}
+
+.singlebox-description{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+
+.singlebox-items li{
+    list-style: none;
+    text-align: left;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+
+.singlebox-items li i{
+    margin-left: -30px;
+    padding: 5px;
+    color: var(--primary-color);
+    background-color: var(--tarsiyari-color);
+    border-radius: 50%;
+    opacity: .4;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.package-singlebox button{
+    background-color: var(--tarsiyari-color);
+}
+
+.package-singlebox button:hover{
+    background-color: var(--tarsiyari-color);
+}
+/* -----------
+end our package section 
+---------------*/
 
 
 
