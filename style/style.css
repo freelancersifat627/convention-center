@@ -30,6 +30,7 @@
     color: var(--light-dark);
     font-size: 22px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .navber ul li a{
@@ -215,4 +216,47 @@ start our client section
 end our client section 
 ---------------*/
 
+/* -----------
+start Frequently Asked Questions section 
+---------------*/
+.post-wrap{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
 
+.accordion-item h2 button{
+    color: var(--black);
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.accordion-body{
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    line-height: 28px;
+
+}
+
+/* -----------
+End Frequently Asked Questions section 
+---------------*/
+
+/* -----------
+Start Footer section 
+---------------*/
+#footer{
+    height: 50vh;
+    background-color: var(--background-color);
+    font-family: var(--secondary-font);
+    color: var(--white);
+    font-family: var(--secondary-font);
+}
+
+.footer-app p{
+    padding-top: 56px;
+}
+
+/* -----------
+End Footer section 
+---------------*/
